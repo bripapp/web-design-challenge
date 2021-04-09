@@ -1,0 +1,138 @@
+/* 
+CSS Style Sheet 
+*/
+
+/* Body */
+body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5be4ac6f266c07e4edd988aa/1562571142518-DGUD6R7WK6O0XZFN34SZ/ke17ZwdGBToddI8pDm48kA0wePVlgOGM5yNNrADThjYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc3f5rMIUspMOT17T3MGHdS3s1KwpjdUupKJDR9JNb8i8O932tY93Uq43o4DcCmt6U/contour+lines+in+topographic+maps");
+    height: 100px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  /* Navbar */
+  .navbar {
+    max-height: 50px;
+  }
+  .navigation .navbar-brand {
+    color: white;
+    margin-left: 7px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: black;
+    font-family: Menlo, Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+    background-color: white;
+    font-size: 25px; 
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: white;
+  }
+  .dropdown-item {
+    color: #000000;
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #997979ab;
+  }
+  
+  .nav-link:hover {
+    background-color:#E6E6FA;
+   }
+  
+  .navbar-brand:hover {
+  color: #E7E7E7;
+  }
+  a {
+    color: #E7E7E7;
+    font-size: 15px;
+  }
+  
+  /* Images */
+  img{
+    width:100%;
+    height:100%;
+  }
+  .active, .panel:hover {
+    border-color:rgba(128, 0, 0, 0.671);
+    border-style: solid;
+    
+  }
+  .vizualization {
+    width:50%;
+    height:50%;
+  }
+  
+  /* Title */
+  .title {
+    color: black;
+    font-family: Menlo, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+  
+  /* Paragraph */
+  p {
+  color: black;
+  font-family: Menlo, Helvetica, sans-serif;
+  font-size: 16px;
+  }
+  
+  /* Box */
+  .box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  /* Table */
+  .table {
+    font-size: 15px;
+    border-top-color: rgb(255, 255, 255);
+  }
+  
+  /* Footer */
+  footer {
+  background-color: #E6E6FA;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: rgba(128, 0, 0, 0.671);
+  color: black;
+  min-height: 50px;
+  font-family: Menlo, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 992px) {
+    .navbar-expand-lg {
+    background-color: #000000;
+    }
+    .navbar {
+      max-height: none;
+      padding: inherit;
+    }
+    .navbar div {
+      margin: inherit;
+      background-color: white;
+    }
+    .navbar-brand {
+      padding: 10px;
+    }
+    button{
+      margin-right: 30px;
+    }
+    button:focus {
+      outline: 1px dotted;
+      outline: auto 5px;
+    }
+  }
